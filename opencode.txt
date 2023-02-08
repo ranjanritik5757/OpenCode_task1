@@ -1,0 +1,22 @@
+-- DIFFERENCES BETWEEN GIT AND GITHUB --
+   GIT : Basically it stores the history of the activities that takes place in files. It tracks down what
+	   and when the changes are made in a particular codebase.It is used locally.
+   GITHUB : Github is a service where people share their code to make changes and add different features.
+ 
+-- GIT COMMANDS --
+ git config -> It is used user related details
+ git init -> This command creates a hidden file .git which tracks down the activities.
+ git status -> This command checks and displays the status of the of the acvities that took place.
+ git touch file name -> creates the file 	
+ ls -> It list all the files in that directly
+ rm -> deletes the file
+ 
+-- HOW TO MAKE A PULL REQUEST --
+So basically pull request is send when we want to make some changes with the forked repository.
+Steps involved are : 
+-> Firstly we fork the file from the admin's repository and then make a clone of that file in local drive.
+-> Then we make the required changes or adding features in that particular code base.
+-> Then we send a pull request to the admin. The admin reviews and suggests the needed changes and then
+   it is merged it the master branch.
+-> PULL REQUEST can be made directly from the github profile .
+-> Another way to create a pull request is use the command git reuqest-pull
